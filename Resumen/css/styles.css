@@ -1,0 +1,7 @@
+
+@import "./wrapper.css";
+@import "./main-content.css";
+
+body {
+    background-color: rgb(185, 40, 103);
+}

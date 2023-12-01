@@ -1,0 +1,30 @@
+
+
+
+.section-tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-size: 28px;
+    font-family: monospace;
+    padding-bottom: 100px;
+}
+
+.piedra-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.piedra-photo img {
+    border: 3px solid rgb(185, 40, 103);
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 7px;
+    transition: 400ms;
+}
+
+.piedra-photo img:hover {
+    filter: grayscale(7);
+}
